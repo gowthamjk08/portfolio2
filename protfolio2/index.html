@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <title>Portfolio</title>
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstarp5 CDN link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+
+    <!-- CSS link -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body class="container-xxl p-0">
+    <!-- Dark and Light Theme Button -->
+    <div class="theme-container" id="themeContainer" onclick="themeChange()">
+        <i class="fa-solid fa-sun"></i>
+        <i class="fa-solid fa-moon"></i>
+    </div>
+
+    <header>
+        <h1 id="headerLogo">Gowtham</h1>
+        <div class="navBar" id="navBar" onclick="navBar()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#project">project</a>
+            <a href="#contact">Contact Me</a>
+        </nav>
+    </header>
+
+    <!-- main section  -->
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-text">
+                <h2>HELLO</h2>
+                <h3>I AM <span>GOWTHAM</span></h3>
+                <h4></h4>
+
+                <div class="home-btn">
+                    <a href="#">Hire Me</a>
+                    <a href="./img/Gowtham Resume (5).pdf">Get CV</a>
+                </div>
+            </div>
+            <div class="hero-img-container">
+                <div class="hero-img" id="heroImg">
+                    <img src="./img/hero-img1.png" alt="I'm" class="lightThemeImg">
+                    <img src="./img/hero-img2.png" alt="I'm" class="darkThemeImg">
+                    <img src="./img/img-gif.gif" class="gif">
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>let’s Introduce about myself</h2>
+            <div class="about-container">
+                <div class="about-img-container">
+                    <div class="about-img">
+                        <img src="./img/IMG_20240613_004156.jpg" alt="I'm">
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p>Welcome to my corner of the web! My name is Gowtham, and I'm thrilled to share a bit about myself
+                        with you.</p>
+
+                    <p>I hold a Bachelor's degree in Computer Science, which has been my passion since day one. During
+                        my academic journey, I had the incredible opportunity to intern at Prodigy Infotech.</p>
+
+                    <p> I honed my skills and tackled various challenges. They give me various task in five topic Out of
+                        the five tasks assigned to me, I successfully completed four, learning and growing with each
+                        one.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h3 class="moreh3">More About Me</h3>
+            <p>One of the highlights of my college experience was working on a project close to my heart - the Computer
+                and Mobile Repair Management System. This project allowed me to blend my expertise in HTML, CSS, and
+                JavaScript with backend development using Java and MySQL. It was a fascinating journey from
+                conceptualization to implementation, and I'm proud of the results we achieved. Beyond the technical
+                realm, I'm passionate about leveraging technology to solve real-world problems and constantly seeking
+                new ways to innovate and create. Whether it's coding, troubleshooting, or exploring the latest trends,
+                I'm always eager to dive in and expand my horizons. Thank you for visiting my website, and I look
+                forward to connecting with you further.</p>
+        </section>
+
+        <section class="eae-container">
+            <h2>Education And Experience</h2>
+            <div class="eae">
+                <div>
+                    <h3>College</h3>
+                    <h6>2021-2024</h6>
+                    <p>I hold a Bachelor's degree in Computer Science, which has been my passion since day one. During
+                        my academic journey, I had the incredible opportunity to intern at Prodigy Infotech</p>
+                </div>
+                <div>
+                    <h3>Projects</h3>
+                    <h6>jan-may</h6>
+                    <p>During In This time I will prepare my College and Internship projects like personal portfolie and
+                        more like landing page using HTML,CSS and JavaScript and then responsive navbar in my
+                        Internship. In my College I Build my own Weather checking app using API.</p>
+                </div>
+                <div>
+                    <h3>Internship</h3>
+                    <h6>may-sep</h6>
+                    <p>I had the incredible opportunity to intern at Prodigy Infotech. This vertual Internship and here
+                        they five task to complete to experience the real life project using Front-End tool like HTML,
+                        CSS, JavaScript their I Build my own Portfolie and landing pages. More then Their I face real
+                        time projects so that's improve the my confidence and help to think like Developer.</p>
+                </div>
+                <div>
+                    <h3>Code99 IT Academy</h3>
+                    <h6>sep-present</h6>
+                    <p>As a Full-Stack web Delveloper , I bring a Diverse Skill like in HTML,CSS,JavaScript and
+                        server-side technology such as Java and Springboot, database like SQL</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="skill-container scroll">
+            <h2>Skills</h2>
+            <div class="skills">
+              <div class="html skills-name">
+                <h4 class="my-2 d-flex justify-content-between w-100"><span>HTML </span> <span>100%</span></h4>
+                <div></div>
+              </div>
+    
+              <div class="css skills-name">
+                <h4 class="my-2 d-flex justify-content-between w-100"><span>CSS </span> <span>90%</span></h4>
+                <div></div>
+              </div>
+    
+              <div class="js skills-name">
+                <h4 class="my-2 d-flex justify-content-between w-100"><span>Java Script </span> <span>75%</span></h4>
+                <div></div>
+              </div>
+    
+    
+              <div class="java skills-name">
+                <h4 class="my-2 d-flex justify-content-between w-100"><span>Java </span> <span>85%</span></h4>
+                <div></div>
+              </div>
+    
+              <div class="sql skills-name">
+                <h4 class="my-2 d-flex justify-content-between w-100"><span>SQL </span> <span>72%</span></h4>
+                <div></div>
+              </div>
+    
+              <div class="c-plus skills-name">
+                <h4 class="my-2 d-flex justify-content-between w-100"><span>C++ </span> <span>60%</span></h4>
+                <div></div>
+              </div>
+            </div>
+        </section>
+
+        <section class="project-container" id="project">
+          <h2>Projects</h2>
+
+          <div class="project">
+            <a href="https://gowthamjk08.github.io/meatshop/"><img src="./img/meat.jpg"></a>
+            <a href="https://gowthamjk08.github.io/E-learning-site/"><img src="./img/digital marketing.jpg"></a>
+            <a href="https://gowthamjk08.github.io/hospital/"><img src="./img/hospital.jpg"></a>
+            <a href="#"><img src="./img/portfolio.jpg"></a>
+          </div>
+        </section>
+
+      <section class="contact-container scroll" id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact">
+          <div class="contact-text">
+            <img src="./img/mouse.png">
+            <p>Interested in collaborating or have a project in mind? I'd love to hear from you! Drop me a message via
+              the contact form below, and let's explore how we can work together to bring your ideas to life.</p>
+            <h5> mail to me </h5>
+            <a href="mailto:gowthamjk08@gmail.com"><i class="fa fa-envelope"></i> gowthamjk08@gmail.com</a>
+          </div>
+          <div class="contact-info">
+            <form action="#">
+              <label for="name">Name</label>
+              <input type="text" id="name">
+              <label for="mail">Email</label>
+              <input type="text" id="mail">
+              <label for="message">Message</label>
+              <label for="message"></label>
+              <textarea name="message" id="message" rows="4" placeholder="what's going on your mind &#9786;"></textarea>
+              <button type="submit">submit</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+<footer>
+  <div class="links">
+    <a href="./#home">Home</a>
+    <a href="./#about">About</a>
+    <a href="./#project">Project</a>
+    <a href="./#contact">Contact</a>
+  </div>
+  <div class="social-media-links">
+    <a href="linkedin.com/in/gowthamjk08"><i class="fa-brands fa-linkedin"></i>Linkedin</a>
+    <a href="https://github.com/gowthamjk08"><i class="fa-brands fa-github"></i>Github</a>
+    <a href="#"><i class="fa-brands fa-facebook"></i>Facebook</a>
+    <a href="#"><i class="fa-brands fa-instagram"></i>Instagram</a>
+    <a href="#"><i class="fa-brands fa-x-twitter"></i>Twitter</a>
+  </div>
+</footer>
+
+<div class="made">
+  <h4>Made By Gowtham&copy;</h4>
+</div>
+
+
+<script src="./script.js"></script>
+</body>
+
+</html>
